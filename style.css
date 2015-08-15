@@ -1,13 +1,32 @@
 body{
 	background-color: #FFFFFF;
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px
+}
+
+header{
+padding: 20px;
 }
 
 
+#buttons{
+	opacity: .85;
+	float: right;
+	margin-right: 30px;
+	color: #000;
+}
 
+#buttons:hover{
+	text-decoration: underline;	
+}
+
+#googlelaunchicon{
+	height: 17px;
+	width: 17px;
+	float: right;
+}
 
 #Footer{
 	background-color: #f2f2f2;;
