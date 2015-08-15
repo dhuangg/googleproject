@@ -11,8 +11,9 @@ body{
 
 #Footer{
 	background-color: #f2f2f2;;
-	height: 6%;
 	width: 100%;
+	padding-top: 12px;
+	padding-bottom:12px;
     border-top: 1px solid #e4e4e4;
     display: block;
     position: absolute;
@@ -21,4 +22,24 @@ body{
 .Links{
 	color: #66666A;
 	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+	padding-left: 27px;
+    margin: 0 !important;
+
+}
+.Links:hover{
+text-decoration: underline;
+	}
+#SpecialLink:hover{
+	text-decoration: underline;
+}
+#SpecialLink{
+	color: #66666A;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+	padding-left: 905px;
+	margin: 0 !important;
+	padding-right: 1px;
 }
