@@ -31,15 +31,16 @@ body{
 .Links:hover{
 text-decoration: underline;
 	}
-#SpecialLink:hover{
+.SpecialLinks:hover{
 	text-decoration: underline;
 }
-#SpecialLink{
+.SpecialLinks{
 	color: #66666A;
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 13px;
-	padding-left: 905px;
+	float: right;
+	padding-right: 27px;
 	margin: 0 !important;
-	padding-right: 1px;
+
 }
