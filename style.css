@@ -13,7 +13,7 @@ body, html{
 
 
 img {
-	display: block;
+	display: block;	
 	margin:auto;
 	height: 95px;
 	width: 269px;
@@ -21,37 +21,67 @@ img {
 
 }
 
+
 header{
-padding: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 13px;
+	position: absolute;
+	display: inline-block;
+	float: right;	
+	right: 30px;
 }
-
-
-#buttons{
+.headerlinks:hover{
+	text-decoration: underline;	
 	opacity: .85;
-	float: right;
+		
+}
+.headerlinks{
 	margin-right: 30px;
 	color: #000;
+	font-family: Ariel;
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 28px;
 }
-
-#buttons:hover{
-	text-decoration: underline;	
-}
-
 #googlelaunchicon{
 	height: 17px;
 	width: 17px;
-	float: right;
+}
+#button{
+	margin-left: 15px;
+	border: 1px solid #4285f4;
+    font-weight: bold;
+	color: #fff;
+	border: 1px solid #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border-radius: 2px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 #Footer{
-	background-color: #f2f2f2;;
+	background-color: #f2f2f2;
 	width: 100%;
 	padding-top: 12px;
 	padding-bottom:12px;
     border-top: 1px solid #e4e4e4;
     display: block;
     position: absolute;
-    bottom: 0px;
+	bottom: 0px;
 }
 .Links{
 	color: #66666A;
@@ -62,7 +92,7 @@ padding: 20px;
     margin: 0 !important;
 }
 .Links:hover{
-text-decoration: underline;
+	text-decoration: underline;
 	}
 .SpecialLinks:hover{
 	text-decoration: underline;
